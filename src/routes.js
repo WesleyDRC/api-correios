@@ -1,7 +1,7 @@
 import { Router } from "express";
 
-import Cep from './controllers/cep'
-import CalcularPrazo from "./controllers/calcularFrete";
+import Cep from './controllers/cep.js'
+import CalcularPrazo from "./controllers/calcularFrete.js";
 
 const routes = Router()
 
